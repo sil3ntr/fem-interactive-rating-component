@@ -1,0 +1,146 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    --orange: hsl(25, 97%, 53%);
+
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --medium-dark-blue: hsl(213, 20%, 22%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+
+    font-family: 'Overpass', sans-serif;
+    margin: 0; 
+  } 
+
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--very-dark-blue);
+    font-size: 15px;
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  h1 {
+    padding: 20px 0 5px 0;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    height: 100dvh;
+  }
+
+  .container {
+    padding: 35px 20px 35px 20px;
+    width: 23rem;
+    
+    border-radius: 1rem;
+    background-color: var(--dark-blue);
+    color: var(--white);
+
+  }
+
+  .circle {
+    display: flex;
+    padding: 0.8rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background-color: var(--medium-dark-blue);
+  }
+
+  .text-area {
+    padding: 0 0 0 0 ;
+    color: var(--light-grey);
+  }
+
+  .rating-numbers {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+    padding: 20px 0 20px 0 ;
+  }
+
+  input[type="radio"] {
+    opacity: 0; /* hidden but still tabable */
+  }
+
+  input[type="radio"] + span {
+    padding: 20px;
+    background-color: var(--medium-dark-blue);
+    border-radius: 50%;
+    border: 1px solid;
+    color: var(--white);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+  }
+
+  li {
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+    line-height: 3.2rem;
+
+    background-color: var(--medium-dark-blue);
+    color: var(--light-grey);
+  
+    border-radius: 50%;
+
+  }
+
+  li:hover {
+    background-color: var(--orange);
+    color: var(--white);
+  }
+
+  li:active, .select{
+    background-color: var(--medium-grey);
+    color: var(--white);
+  }
+
+
+  button {
+    border-radius: 2rem;
+    border-color: transparent;
+    height: 2.5rem;
+    width: 100%;
+    background-color: var(--orange);
+    color: var(--white);
+    font-weight: 700;
+  }
+
+  button:hover {
+    background-color: var(--white);
+    color: var(--orange);
+  }
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
