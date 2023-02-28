@@ -89,25 +89,11 @@
     padding: 20px 0 20px 0 ;
   }
 
-  input[type="radio"] {
-    opacity: 0; /* hidden but still tabable */
-  }
-
-  input[type="radio"] + span {
-    padding: 20px;
-    background-color: var(--medium-dark-blue);
-    border-radius: 50%;
-    border: 1px solid;
-    color: var(--white);
-    transition: all 0.4s;
-    -webkit-transition: all 0.4s;
-  }
-
-  li {
+  .rating  {
     height: 3rem;
     width: 3rem;
     text-align: center;
-    line-height: 3.2rem;
+    line-height: 3rem;
 
     background-color: var(--medium-dark-blue);
     color: var(--light-grey);
@@ -116,16 +102,29 @@
 
   }
 
-  li:hover {
+  .rating:hover {
     background-color: var(--orange);
     color: var(--white);
   }
 
-  li:active, .select{
+  .rating:active, .select{
     background-color: var(--medium-grey);
     color: var(--white);
   }
 
+  legend:not(:focus):not(:active) {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    white-space: nowrap; 
+  }
+
+  fieldset{
+    border: 0;
+  }
 
   button {
     border-radius: 2rem;
