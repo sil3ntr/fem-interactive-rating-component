@@ -27,43 +27,23 @@
         Please let us know how we did with your support request. All feedback is appreciated 
         to help us improve our offering!
       </div>
-      <form>
-        
+      <form action="thankyou.html" method="GET">
         <fieldset>
           <legend>Rate our suppory on scale of 1 to 5</legend>
           <div aria-hidden="true"></div>
-          <div class="rating-numbers">
-            <button type="button" aria-label="rating-1" class="rating">1</button>
-            <button type="button" aria-label="rating 2" class="rating">2</button>
-            <button type="button" aria-label="rating 3" class="rating">3</button>
-            <button type="button" aria-label="rating 4" class="rating">4</button>
-            <button type="button" aria-label="rating 5" class="rating">5</button>
+          <div class="rating-numbers" id="rating-numbers">
+            <button type="button" aria-label="rating-1" class="rating" id="rating-1" value="1">1</button>
+            <button type="button" aria-label="rating 2" class="rating" id="rating-2" value="2">2</button>
+            <button type="button" aria-label="rating 3" class="rating" id="rating-3" value="3">3</button>
+            <button type="button" aria-label="rating 4" class="rating" id="rating-4" value="4">4</button>
+            <button type="button" aria-label="rating 5" class="rating" id="rating-5" value="5">5</button>
             </div>
-            <button type="button" aria-label="submit rating">SUBMIT</button>
+            <input type="hidden" id="rating" name="rating" value="" />
+            <button type="submit" aria-label="submit rating">SUBMIT</button>
         </fieldset>
-        
-      
     </form>
     </div>
   </main>
-
-  
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
-
-  
-
 </body>
   <footer>  
     <div class="attribution">

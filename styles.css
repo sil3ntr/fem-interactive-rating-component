@@ -84,7 +84,6 @@
   .rating-numbers {
     display: flex;
     justify-content: space-between;
-    list-style: none;
     
     padding: 20px 0 20px 0 ;
   }
@@ -99,7 +98,6 @@
     color: var(--light-grey);
   
     border-radius: 50%;
-
   }
 
   .rating:hover {
@@ -110,6 +108,17 @@
   .rating:active, .select{
     background-color: var(--medium-grey);
     color: var(--white);
+  }
+
+  .rating-result {
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+
+    background-color: var(--medium-dark-blue);
+    color: var(--orange);
+  
+    border-radius: 2rem;
   }
 
   legend:not(:focus):not(:active) {

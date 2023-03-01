@@ -7,4 +7,9 @@ const ratingSelect = document.querySelectorAll('.rating');
       });
     });
 
-    
+
+const ratingResult = document.getElementById('rating-numbers').addEventListener('click', evt =>{
+  let clickedButton = evt.target;
+  let btnValue = clickedButton.value;
+  document.getElementById('rating').value = btnValue;
+})
