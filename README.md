@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshots
 
-![](./screenshot.png)
+![](./ratingcard.png)
 ![](./thanksscreen.png)
 
 ### Links
