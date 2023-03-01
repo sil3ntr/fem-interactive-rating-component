@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://sil3ntr.github.io/fem-interactive-rating-component/](https://your-solution-url.com)
-- Live Site URL: [https://sil3ntr.github.io/fem-interactive-rating-component/](https://your-live-site-url.com)
+- Solution URL: [https://sil3ntr.github.io/fem-interactive-rating-component/](https://www.frontendmentor.io/solutions/interactive-rating-component-learning-some-more-vanilla-js-4JYPRu3uTF)
+- Live Site URL: [https://sil3ntr.github.io/fem-interactive-rating-component/](https://sil3ntr.github.io/fem-interactive-rating-component/)
 
 ## My process
 
